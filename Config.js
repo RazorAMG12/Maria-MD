@@ -3,11 +3,11 @@ const chalk = require('chalk');
 require('dotenv').config();
 
 //contact details
-global.ownernumber = [ process.env.OWNER_NUMBER || "919931122319"],
-global.ownername = process.env.OWNER_NAME || "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰",
-global.ytname = "YT: AyushBotz.inc"
+global.ownernumber = [ process.env.OWNER_NUMBER || "94717400841"],
+global.ownername = process.env.OWNER_NAME || "💙𓆩‎✘AMG_✰",
+global.ytname = "YT: Amg.inc"
 global.socialm = "GitHub: Ayushpandey023"
-global.location = "Indian"
+global.location = "Sri Lanka"
 
 global.botname = process.env.BOTNAME || "𝐌𝐀𝐑𝐈𝐀-𝐌𝐃",//name of the bot
 
@@ -29,7 +29,7 @@ global.prefa = process.env.PREFIX || ".",
 global.welcome = process.env.WELCOME || "false", //auto welcome
 global.autoRecording = false //auto recording
 global.autoTyping = false //auto typing
-global.autorecordtype = false //auto typing + recording
+global.autorecordtype = true //auto typing + recording
 global.autoread = false //auto read messages
 global.autobio = false //auto update bio
 global.anti212 = true //auto block +212
